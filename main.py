@@ -51,7 +51,7 @@ st.markdown("""
 @st.cache_resource
 def load_models():
 
-    token="YOUR_HUGGINGFACE_TOKEN"
+    token=os.getenv("HUGGINGFACE_TOKEN")
     
     """Load embedding model, vector store, and language model (cached for performance)"""
     try:
