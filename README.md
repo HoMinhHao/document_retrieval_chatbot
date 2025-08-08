@@ -45,4 +45,4 @@ open up localhost to test
 - LangChain
 - Flask
 - Llama
-- Pinecone
+- FAISS
