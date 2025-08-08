@@ -1,0 +1,8 @@
+langchain
+langchain_community
+pypdf
+langchain_experimental
+sentence-transformers
+faiss-cpu
+faiss-gpu
+accelerate
